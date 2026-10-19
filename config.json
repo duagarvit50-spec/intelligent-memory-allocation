@@ -1,0 +1,13 @@
+{
+  "points": [
+    ["small",  20000,  262144,  600],
+    ["medium", 50000,  1048576, 2400],
+    ["large",  100000, 4194304, 9600]
+  ],
+  "mean_size": 256,
+  "size_sigma": 1.0,
+  "min_size": 16,
+  "max_size": 8192,
+  "sample_every": 100,
+  "adaptive": {"small_n": 4, "frag_hi": 0.7, "big_frac": 0.05, "refresh": 100}
+}
